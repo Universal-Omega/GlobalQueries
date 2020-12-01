@@ -1,0 +1,27 @@
+{
+	"name": "GlobalQueries",
+	"author": "Universal Omega",
+	"descriptionmsg": "globalqueries-desc",
+	"url": "",
+	"license-name": "",
+	"type": "parserhook",
+	"requires": {
+		"extensions": {
+		    "CentralAuth": "*",
+			"CreateWiki": "*"
+		}
+	},
+	"GlobalQueries": {
+		"GlobalQueries": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"GlobalQueriesMagic": "GlobalQueries.i18n.magic.php"
+	},
+	"AutoloadClasses": {
+	    "ParserFunctions": "includes/ParserFunctions.php",
+		"SQLQueryFunctions": "includes/SQLQueryFunctions.php"
+	},
+	"manifest_version": 2
+}
