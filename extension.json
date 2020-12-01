@@ -7,7 +7,7 @@
 	"type": "parserhook",
 	"requires": {
 		"extensions": {
-		    "CentralAuth": "*",
+			"CentralAuth": "*",
 			"CreateWiki": "*"
 		}
 	},
@@ -20,7 +20,7 @@
 		"GlobalQueriesMagic": "GlobalQueries.i18n.magic.php"
 	},
 	"AutoloadClasses": {
-	    "ParserFunctions": "includes/ParserFunctions.php",
+		"ParserFunctions": "includes/ParserFunctions.php",
 		"SQLQueryFunctions": "includes/SQLQueryFunctions.php"
 	},
 	"manifest_version": 2
