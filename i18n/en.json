@@ -1,0 +1,6 @@
+{
+	"@metadata": {
+		"authors": [ "Universal Omega" ]
+    },
+  "globalqueries-desc": "Allows the querying of the CentralAuth and CreateWiki tables on a wiki farm."
+}
