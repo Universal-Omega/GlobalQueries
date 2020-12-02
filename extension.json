@@ -20,8 +20,12 @@
 		"GlobalQueriesMagic": "GlobalQueries.i18n.magic.php"
 	},
 	"AutoloadClasses": {
-		"ParserFunctions": "includes/ParserFunctions.php",
-		"SQLQueryFunctions": "includes/SQLQueryFunctions.php"
+		"GlobalQueries": "GlobalQueries.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"GlobalQueries::onParserFirstCallInit"
+		]
 	},
 	"manifest_version": 2
 }
