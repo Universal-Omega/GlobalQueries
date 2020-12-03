@@ -6,6 +6,7 @@
 	"license-name": "",
 	"type": "parserhook",
 	"requires": {
+		"MediaWiki": ">= 1.35.0",
 		"extensions": {
 			"CentralAuth": "*",
 			"CreateWiki": "*"
