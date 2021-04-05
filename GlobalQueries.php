@@ -4,10 +4,10 @@ use MediaWiki\MediaWikiServices;
 
 class GlobalQueries {
 	public static function onParserFirstCallInit( Parser $parser ) {
-		$parser->setFunctionHook( 'numberofusersinglobalgroup', [ __CLASS__, 'numberOfUsersInGlobalGroup' ], Parser::SFH_NO_HASH );
+		$parser->setFunctionHook( 'numberinglobalgroup', [ __CLASS__, 'numberInGlobalGroup' ], Parser::SFH_NO_HASH );
 	}
 	
-	public static function numberOfUsersInGlobalGroup( Parser $parser, String $group = '' ) {
+	public static function numberInGlobalGroup( Parser $parser, String $group = '' ) {
 		$config = MediaWikiServices::getInstance()->getMainConfig();
 
 		$dbr = wfGetDB( DB_REPLICA, [], $config->get( 'CentralAuthDatabase' ) );
