@@ -2,5 +2,5 @@
 	"@metadata": {
 		"authors": [ "Universal Omega" ]
 	},
-	"globalqueries-desc": "Allows the querying of the CentralAuth and CreateWiki tables on a wiki farm."
+	"globalqueries-desc": "Adds parser function to display number of users in a global group from CentralAuth."
 }
