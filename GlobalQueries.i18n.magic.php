@@ -3,5 +3,5 @@
 $magicWords = [];
 
 $magicWords['en'] = [
-	'numberofusersinglobalgroup' => [ 0, 'numberofusersinglobalgroup' ],
+	'numberinglobalgroup' => [ 1, 'NUMBERINGLOBALGROUP', 'NUMINGLOBALGROUP' ],
 ];
