@@ -2,14 +2,13 @@
 	"name": "GlobalQueries",
 	"author": "Universal Omega",
 	"descriptionmsg": "globalqueries-desc",
-	"url": "",
-	"license-name": "",
+	"url": "//github.com/Universal-Omega/GlobalQueries",
+	"license-name": "GPL-3.0-or-later",
 	"type": "parserhook",
 	"requires": {
 		"MediaWiki": ">= 1.35.0",
 		"extensions": {
-			"CentralAuth": "*",
-			"CreateWiki": "*"
+			"CentralAuth": "*", 
 		}
 	},
 	"GlobalQueries": {
